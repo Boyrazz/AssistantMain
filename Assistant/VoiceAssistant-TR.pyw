@@ -43,8 +43,6 @@ r = sr.Recognizer()
 
 acilis = random.randint(0,1)
 
-kullanici_adi = (getpass.getuser())
-
 
 def speak(string):
     tts = gTTS(text=string, lang="tr", slow=False)
@@ -234,3 +232,4 @@ while True:
     if wake != '':
         wake = wake.lower()
         test(wake)
+
