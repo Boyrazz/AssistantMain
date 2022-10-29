@@ -213,6 +213,16 @@ def respond(voice_data):
     if "şarkıyı durdur" in voice_data:
         pyautogui.press("enter")
 
+    if "Whatsapp" in voice_data:
+        run("Whatsapp")
+        time.sleep(5)
+        pyautogui.press("alt")
+
+    if "wubalubadubdub" in voice_data:
+        playsound("wubbalubba.mp3")
+        pywhatkit.playonyt("https://www.youtube.com/watch?v=4Js-XbNj6Tk")
+
+
 
 def test(wake):
     if"ceviz" in wake:
