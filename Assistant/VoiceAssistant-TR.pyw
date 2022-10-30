@@ -220,7 +220,7 @@ def respond(voice_data):
 
     if "wubalubadubdub" in voice_data:
         playsound("wubbalubba.mp3")
-        pywhatkit.playonyt("https://www.youtube.com/watch?v=4Js-XbNj6Tk")
+        pywhatkit.playonyt("https://www.youtube.com/watch?v=L5ozF8HuT4k")
 
 
 
