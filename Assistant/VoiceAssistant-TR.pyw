@@ -242,4 +242,4 @@ while True:
     if wake != '':
         wake = wake.lower()
         test(wake)
-
+#Boyraz
