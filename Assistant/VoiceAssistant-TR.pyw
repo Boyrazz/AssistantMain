@@ -58,6 +58,7 @@ def record_audio(ask = False):
     with sr.Microphone() as source:
         if ask:
             print(ask)
+        r.adjust_for_ambient_noise(source)
         audio = r.listen(source)
         voice_data = ""
         try:
@@ -242,4 +243,4 @@ while True:
     if wake != '':
         wake = wake.lower()
         test(wake)
-#Boyraz
+
