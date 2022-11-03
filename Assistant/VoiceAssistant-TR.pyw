@@ -58,7 +58,7 @@ def record_audio(ask = False):
     with sr.Microphone() as source:
         if ask:
             print(ask)
-        r.adjust_for_ambient_noise(source,  duration=0.5)
+        r.adjust_for_ambient_noise(source,  duration=0.8)
         audio = r.listen(source)
         voice_data = ""
         try:
